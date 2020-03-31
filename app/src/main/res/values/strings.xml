@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TH</string>
+    <string name="title_activity_initial">Tomato Head</string>
+    <string name="title_home">TOMATO HEAD BEAT YOUR FRIEND</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Rules</string>
+</resources>
