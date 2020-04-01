@@ -28,9 +28,9 @@ jobs:
 
     - name: Archive production artifacts
     - uses: actions/upload-artifact@v1
-        with:
-          name: build
-          path: build
+      with:
+        name: build
+        path: build
     - name: Archive apk
     - uses: actions/upload-artifact@v1
       with:
