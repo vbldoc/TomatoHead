@@ -36,6 +36,7 @@ public class HomeFragment extends Fragment {
         return root;
     }
 
+    /** Listener for click about user interaction for game interaction. */
     private View.OnClickListener gameListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
