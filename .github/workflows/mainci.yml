@@ -26,13 +26,7 @@ jobs:
     - name: Run a one-line script
       run: build
 
-    - name: Archive production artifacts
     - uses: actions/upload-artifact@v1
       with:
-        name: build
-        path: build
-    - name: Archive apk
-    - uses: actions/upload-artifact@v1
-      with:
-        name: app-build
+        name: my-artifact
         path: build/outputs/apk/debug/app-debug.apk
