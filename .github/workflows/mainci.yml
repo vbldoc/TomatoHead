@@ -22,11 +22,7 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    # Runs a single command using the runners shell
-    - name: Run a one-line script
-      run: build
-
     - uses: actions/upload-artifact@v1
       with:
-        name: my-artifact
+        name: tomato-debug
         path: build/outputs/apk/debug/app-debug.apk
